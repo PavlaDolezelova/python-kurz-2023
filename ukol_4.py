@@ -12,10 +12,7 @@ def overeni_cisla(telefonni_cislo):
 
 # Vypocet ceny za SMS zpravu. 3 Kc za kazdych zapocatych 180 znaku.
 def cena_sms(sms):
-    if len(text_zpravy) <= 180:
-        return 3
-    else:
-        return (3 + int(len(text_zpravy)/180) * 3)
+    return (3 + int(len(text_zpravy)/180) * 3)
 
 
 # Zadani telefonniho cisla
