@@ -12,6 +12,15 @@ teploty = [
 #print(teploty)
 
 #seznam prumernych dennich teplot
+#funkce pro vypocet prumeru
+def avg(vstupni_hodnoty):
+    prumer_hodnot = sum(vstupni_hodnoty) / len(vstupni_hodnoty)
+    return prumer_hodnot
+
+denni_teploty = []
+for hodnoty in teploty:
+    denni_teploty.append(avg(hodnoty))
+print(denni_teploty)
 
 #seznam rannich teplot
 ranni_teploty = [hodnoty[0] for hodnoty in teploty]
