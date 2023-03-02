@@ -1,2 +1,5 @@
 1. úkol
 https://regex101.com/r/AVXYXM/1
+
+2. úkol
+https://regex101.com/r/LqOZQb/2
