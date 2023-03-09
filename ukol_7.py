@@ -1,4 +1,4 @@
-#vytvoreni tridy Auto
+#vytvoreni tridy Auto 
 class Auto:
     def __init__(self, registracni_znacka, typ_vozidla, najete_km):
         self.registracni_znacka = registracni_znacka
