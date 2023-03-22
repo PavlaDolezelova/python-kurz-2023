@@ -9,14 +9,8 @@ teplota.head()
 #zaklani info o tabulce
 teplota.info()
 
-#pocet radku
-#print(teplota.shape[0])
-
-#pocet sloupcu
-#print(teplota.shape[1])
-
 #nazvy sloupcu
-#print(teplota.columns)
+print(teplota.columns)
 
 #Dotaz na měření, která byla provedena v Praze. (Teplota neni ve stupnich Celsia ale ve stupních Fahrenheita)
 praha = teplota[teplota["City"] == "Prague"]
